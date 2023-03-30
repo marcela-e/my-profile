@@ -1,0 +1,122 @@
+body {
+	font-family: 'Bauhaus 93', serif;
+	font-weight: lighter;
+ 	text-decoration: none;
+ 	background: #EFFFFD;
+}
+p {
+	font-family: 'Berlin Sans FB', sans-serif;
+	text-align: justify;
+	font-size: 16px;
+}
+
+h1 {
+	color: #66347F;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 100;
+}
+
+h2 {
+	color: turquoise;
+	font-size: 24px;
+	text-align: center;
+	text-shadow: -1px -1px 0 #001, 1px -1px 0 #001, -1px 1px 0 #001, 1px 1px 0 #001; 
+}
+
+a {
+	text-decoration: none;
+	color: #00337C;
+	font-size: 14px;
+	text-justify: center;
+}
+a:hover {
+	color:#E90064;
+}
+
+
+.list-inline {
+	color: #56df0c;
+	font-size: 50px;
+	margin-right: 20px;
+} 
+
+.list-inline:hover {
+	color: #E90064;
+}
+
+img {
+	width: 120px;
+}
+
+#profile {
+	width: 180px ;
+}
+
+#jazmin {
+	width:160px;
+}
+
+
+.img-dogs {
+	border-radius: 10%;
+	box-shadow: 3px 5px 5px #B2B2B2
+}
+
+.img-border{
+	border-radius: 20%;
+	box-shadow: 5px 5px 3px #B2B2B2
+}
+
+.other-divs {
+	padding: 30px;
+	border: 5px dotted #FFB84C;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px #F55050;
+	margin: 40px 0px;
+	text-align: center;
+	background: floralwhite;
+}
+
+.social-divs {
+	padding: 10px;
+	border: 5px dotted #FFB84C;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px #F55050;
+	margin: 40px auto;
+	text-align: center;
+	background: floralwhite;
+	width: 500px;
+}
+
+
+.container{
+	width:1000px;
+	margin:40px auto;
+}
+
+i {
+	font-size: 50px;
+}
+
+@media (max-width: 800px) {
+	.container {
+		width: 500px;
+	}
+
+	.social-divs {
+		width: 400px;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+
+	.social-divs {
+		width: 300px;
+		margin: 30px;
+	}
+}
